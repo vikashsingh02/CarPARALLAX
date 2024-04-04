@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@565&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    max-width: 1170px;
+    width: 100%;
+    
+}
+.mainbody{
+    background-image: url(/assets/bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.listitem ul{
+    list-style-type: none;
+    display: flex;
+}
+.listitem ul>li{
+    margin-left: 30px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+}
+.logo h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+ 
+}
+.button button{
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
+    color: #98C2EA;
+}
+.background h1{
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    line-height: 120px;
+   font-family: "Poppins", sans-serif;
+   position: relative;
+   
+}
+.background::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 380px;
+    width: 550px;
+    height: 450px;
+    background-image: url(/assets/Monstar\ image.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    z-index: 1;
+}
